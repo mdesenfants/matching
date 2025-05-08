@@ -10,7 +10,11 @@ This tool analyzes survey responses from a group of friends and uses simulated a
 
 - Imports survey responses from CSV
 - Uses simulated annealing algorithm for matching optimization
-- Generates optimal pairing recommendations
+- Generates optimal pairing recommendations 
+- Supports two optimization approaches:
+  - Minimize sum of distances (for efficiency)
+  - Minimize standard deviation of distances (for equity)
+- Includes visualization tools for both approaches
 - Considers multiple preference factors
 
 ## Requirements
@@ -44,14 +48,42 @@ pip install -r requirements.txt
    python matcher.py --input survey_data.csv --output matches.csv
    ```
 
+3. For different optimization approaches:
+   ```
+   # To use the standard deviation minimization approach
+   python matcher.py --input survey_data.csv --output matches_std_dev.csv --objective minimize_std_dev
+   
+   # To use the sum minimization approach (default)
+   python matcher.py --input survey_data.csv --output matches_sum.csv --objective minimize_sum
+   ```
+
+4. To generate visualizations:
+   ```
+   # Run with visualization flag
+   python matcher.py --input survey_data.csv --output matches.csv --visualize
+   
+   # Run comparison script
+   python compare_objectives.py
+   
+   # Or use the all-in-one visualization script
+   python visualize_annealing.py
+   ```
+
 ## Project Structure
 
 ```
 matcher/
 ├── README.md
 ├── requirements.txt
-├── matcher.py        # Main application
-├── annealing.py      # Simulated annealing implementation
-├── data_loader.py    # CSV handling functionality
-└── tests/            # Test directory
+├── matcher.py             # Main application
+├── annealing.py           # Simulated annealing implementation
+├── data_loader.py         # CSV handling functionality
+├── compare_objectives.py  # Comparison of optimization approaches
+├── visualize_annealing.py # Generate visualizations for both approaches
+├── paper.tex              # Research paper (LaTeX version)
+├── paper.md               # Research paper (Markdown version)
+├── paper.pdf              # Compiled paper with figures
+├── objective_comparison.png # Figure comparing objective approaches
+├── annealing_comparison.png # Figure comparing annealing processes
+└── tests/                 # Test directory
 ```

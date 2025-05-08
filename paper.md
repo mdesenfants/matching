@@ -103,6 +103,11 @@ Key implementation details:
 - Cooling Schedule: We use an exponential cooling schedule with cooling_rate = 0.995.
 - Initial Temperature: Set high enough (T₀ = 100.0) to allow exploration of the solution space.
 
+Figure 1 compares the execution of the simulated annealing process for both optimization approaches, showing the evolution of scores, temperature decay, standard deviation changes, and match patterns over iterations.
+
+![Comparison of simulated annealing approaches](annealing_comparison.png)
+*Figure a: Comparison of the simulated annealing process for the Minimize Sum approach (left) and the Minimize Standard Deviation approach (right).*
+
 ## 4. Experimental Results
 
 ### 4.1 Dataset
@@ -141,6 +146,9 @@ Examining the distribution of Euclidean distances provides additional insights:
 - The standard deviation minimizing approach produced a more concentrated distribution of distances in the mid-range (0.4-0.6), with fewer outliers in either direction.
 
 This pattern underscores the fundamental tension between maximizing efficiency and ensuring equity in matching problems.
+
+![Comparison of optimization objectives](objective_comparison.png)
+*Figure b: Comparison of optimization objectives showing total Euclidean distance, standard deviation, average preference scores, and the distribution of distances.*
 
 ## 5. Discussion
 

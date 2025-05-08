@@ -130,6 +130,13 @@ Key implementation details:
 \item Initial Temperature: Set high enough ($T_0 = 100.0$) to allow exploration of the solution space.
 \end{itemize}
 
+\begin{figure}[!t]
+\centering
+\includegraphics[width=\columnwidth]{annealing_comparison.png}
+\caption{Comparison of the simulated annealing process for both optimization approaches. The left panel shows the Minimize Sum approach, and the right panel shows the Minimize Standard Deviation approach. Each visualization shows score evolution, temperature decay, standard deviation of Euclidean distances, and the current best matches.}
+\label{fig:annealing_comparison}
+\end{figure}
+
 \section{Experimental Results}
 
 \subsection{Dataset}
@@ -182,6 +189,13 @@ Examining the distribution of Euclidean distances provides additional insights:
 \end{itemize}
 
 This pattern underscores the fundamental tension between maximizing efficiency and ensuring equity in matching problems.
+
+\begin{figure}[!t]
+\centering
+\includegraphics[width=\columnwidth]{objective_comparison.png}
+\caption{Comparison of optimization objectives: Minimize Sum vs. Minimize Standard Deviation. The top row shows total Euclidean distance (left) and standard deviation of distances (right). The bottom row shows average preference scores (left) and the distribution of Euclidean distances (right).}
+\label{fig:objective_comparison}
+\end{figure}
 
 \section{Discussion}
 

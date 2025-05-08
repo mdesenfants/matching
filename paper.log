@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.5.8)  8 MAY 2025 15:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.5.8)  8 MAY 2025 15:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -472,30 +472,56 @@ LaTeX Font Info:    Calculating math sizes for size <9.53561> on input line 33.
 ]
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
 put line 106.
-LaTeX Font Info:    Calculating math sizes for size <8.03> on input line 151.
+<annealing_comparison.png, id=108, 867.24pt x 433.62pt>
+File: annealing_comparison.png Graphic file (type png)
+<use annealing_comparison.png>
+Package pdftex.def Info: annealing_comparison.png  used on input line 135.
+(pdftex.def)             Requested size: 252.94499pt x 126.46777pt.
+LaTeX Font Info:    Calculating math sizes for size <8.03> on input line 158.
+ [2
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.187 \item T
+             he sum-minimizing approach produced more matches with very smal...
 
-Underfull \hbox (badness 3557) in paragraph at lines 180--181
-[]\OT1/ppl/m/n/9.53561 The sum-minimizing ap-proach pro-duced more
- []
-
-[2
 pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has
  been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.190 
-      ]
-Underfull \hbox (badness 1571) in paragraph at lines 204--205
+l.187 \item T
+             he sum-minimizing approach produced more matches with very smal...
+ <./annealing_comparison.png>]
+Underfull \hbox (badness 3557) in paragraph at lines 187--188
+[]\OT1/ppl/m/n/9.53561 The sum-minimizing ap-proach pro-duced more
+ []
+
+<objective_comparison.png, id=141, 867.24pt x 722.7pt>
+File: objective_comparison.png Graphic file (type png)
+<use objective_comparison.png>
+Package pdftex.def Info: objective_comparison.png  used on input line 195.
+(pdftex.def)             Requested size: 252.94499pt x 210.77962pt.
+
+Underfull \hbox (badness 1571) in paragraph at lines 218--219
 \OT1/ppl/m/n/9.53561 met-rics be-yond Eu-clidean dis-tance (e.g., Ma-ha-
  []
 
-
-Underfull \hbox (badness 1603) in paragraph at lines 225--226
+[3
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.238 
+       <./objective_comparison.png>]
+Underfull \hbox (badness 1603) in paragraph at lines 239--240
 []\OT1/ppl/m/n/8.03 G.M. Thomp-son, "A simulated-annealing heuris-tic for shift
 
  []
 
-[3] (./paper.aux)
+[4
+
+] (./paper.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
@@ -504,10 +530,10 @@ Package rerunfilecheck Info: File `paper.out' has not changed.
 (rerunfilecheck)             Checksum: 63B3C4DB9D2B4DCD092E0BA60B69B974;2688.
  ) 
 Here is how much of TeX's memory you used:
- 10445 strings out of 476106
- 164398 string characters out of 5793934
- 1948975 words of memory out of 5000000
- 32278 multiletter control sequences out of 15000+600000
+ 10467 strings out of 476106
+ 164975 string characters out of 5793934
+ 1946975 words of memory out of 5000000
+ 32297 multiletter control sequences out of 15000+600000
  597999 words of font info for 119 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
  75i,8n,79p,984b,608s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -522,10 +548,10 @@ w/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/u
 hvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></
 usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/te
 xlive/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on paper.pdf (3 pages, 156025 bytes).
+Output written on paper.pdf (4 pages, 267236 bytes).
 PDF statistics:
- 207 PDF objects out of 1000 (max. 8388607)
- 176 compressed objects within 2 object streams
- 52 named destinations out of 1000 (max. 500000)
- 145 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 219 PDF objects out of 1000 (max. 8388607)
+ 183 compressed objects within 2 object streams
+ 55 named destinations out of 1000 (max. 500000)
+ 155 words of extra memory for PDF output out of 10000 (max. 10000000)
 
