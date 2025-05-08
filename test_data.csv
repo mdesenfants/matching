@@ -1,0 +1,21 @@
+id,name,gender,height,preferred_activities,music_preference,personality,rating_F1,rating_F10,rating_F2,rating_F3,rating_F4,rating_F5,rating_F6,rating_F7,rating_F8,rating_F9,rating_M1,rating_M10,rating_M2,rating_M3,rating_M4,rating_M5,rating_M6,rating_M7,rating_M8,rating_M9
+M1,Alex,Male,183,Taking photos,R&B,Adventurous,2,6,6,7,7,5,5,6,3,7,,,,,,,,,,
+M2,Ben,Male,174,Group activities,Hip hop,Adventurous,1,4,10,4,9,3,9,1,10,5,,,,,,,,,,
+M3,Carlos,Male,177,Taking photos,Country,Creative,5,2,9,4,4,3,8,7,8,5,,,,,,,,,,
+M4,David,Male,173,Sports,R&B,Funny,7,3,3,3,1,9,7,3,7,6,,,,,,,,,,
+M5,Ethan,Male,170,Talking,Hip hop,Thoughtful,10,5,9,4,4,3,1,10,10,8,,,,,,,,,,
+M6,Frank,Male,183,Movies,Rock,Calm,3,6,4,6,9,3,9,9,10,2,,,,,,,,,,
+M7,George,Male,166,Taking photos,Indie,Thoughtful,2,6,9,5,7,8,6,10,9,10,,,,,,,,,,
+M8,Harry,Male,179,Sports,Country,Analytical,2,6,10,6,1,9,10,8,5,9,,,,,,,,,,
+M9,Ian,Male,184,Games,Classical,Outgoing,8,10,3,9,4,6,2,8,9,8,,,,,,,,,,
+M10,Jack,Male,176,Movies,Rock,Adventurous,8,3,6,4,10,9,1,5,5,3,,,,,,,,,,
+F1,Amy,Female,169,Dancing,Metal,Funny,,,,,,,,,,,5,8,8,3,10,7,8,8,1,7
+F2,Beth,Female,178,Eating,Country,Thoughtful,,,,,,,,,,,7,9,10,10,3,8,6,8,6,3
+F3,Chloe,Female,156,Group activities,Jazz,Energetic,,,,,,,,,,,8,1,4,9,5,4,7,8,10,8
+F4,Diana,Female,167,Games,Classical,Analytical,,,,,,,,,,,10,10,6,7,4,2,9,8,2,10
+F5,Emma,Female,161,Eating,Classical,Outgoing,,,,,,,,,,,1,1,7,6,9,10,6,9,8,8
+F6,Fiona,Female,167,Group activities,Country,Analytical,,,,,,,,,,,1,10,3,7,1,9,3,3,8,7
+F7,Grace,Female,165,Arts,R&B,Energetic,,,,,,,,,,,10,4,4,4,5,8,6,5,7,8
+F8,Hannah,Female,166,Movies,Country,Serious,,,,,,,,,,,5,7,7,10,8,2,3,9,4,6
+F9,Isla,Female,177,Arts,Pop,Energetic,,,,,,,,,,,1,7,8,7,8,5,3,5,8,8
+F10,Jen,Female,159,Arts,Rock,Energetic,,,,,,,,,,,7,4,6,2,6,4,3,9,3,10
